@@ -52,3 +52,9 @@ fn test_separate_flags() {
     let output = run_ccwc(&["-l", "-w", "-c", "tests/fixtures/text.txt"]);
     assert_eq!(output, "7145 58164 342190 tests/fixtures/text.txt");
 }
+
+#[test]
+fn test_no_flags() {
+    let output = run_ccwc(&["tests/fixtures/text.txt"]);
+    assert_eq!(output, "7145 58164 342190 tests/fixtures/text.txt");
+}
