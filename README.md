@@ -2,6 +2,12 @@
 
 A Rust implementation of the Unix `wc` command.
 
+## Installation
+
+```
+cargo install --path .
+```
+
 ## Usage
 
 ```
