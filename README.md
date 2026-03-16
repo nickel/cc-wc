@@ -1,4 +1,4 @@
-# ccwc
+# cc-wc
 
 A Rust implementation of the Unix `wc` command.
 
